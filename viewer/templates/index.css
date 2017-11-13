@@ -1,11 +1,9 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css");
-
 
 /*#mainbox{
 	align: center;
 	display: inline-block;
 	text-align: left;
-*/}
+}*/
 
 .header {
 	width: 100%;
@@ -19,5 +17,5 @@
 }
 
 #the-canvas {
-  border:1px solid black;
+	border:1px solid black;
 }
