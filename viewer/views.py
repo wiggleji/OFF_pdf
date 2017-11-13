@@ -11,3 +11,10 @@ def mag_list(request):
     return render(request, "index.html", {
         "mag_list": mag_list
     })
+
+
+def mag_detail(request, pk):
+    magazine = Magazine.objects.get(pk=pk)
+    return render(request, "viewer.html", {
+        "magazine": magazine
+    })

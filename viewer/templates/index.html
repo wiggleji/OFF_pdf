@@ -23,7 +23,7 @@
     text-align: left;">
       <a class="item">
         {% for mag in mag_list %}
-          <a href="{{ mag.file.url }}">
+          <a href="{% url 'viewer' pk=mag.pk %}">
             <h2 class="ui header" style="margin-top: 8px; margin-bottom: 8px;">
               <i class="right triangle icon"></i>
                 {{ mag.title }}

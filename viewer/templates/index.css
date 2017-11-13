@@ -17,3 +17,7 @@
 	height: 20%;
 
 }
+
+#the-canvas {
+  border:1px solid black;
+}
