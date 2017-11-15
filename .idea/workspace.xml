@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b775a751-3107-4889-8da0-1f37c7b71084" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/5-1.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/김지형.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/발표-처음부터_알아보는_웹_크롤러_static.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/웹_크롤러_패캠_강의8주_기획의_수정본_-_I.pdf" />
       <change beforePath="$PROJECT_DIR$/OFF_pdf/settings.py" afterPath="$PROJECT_DIR$/OFF_pdf/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +23,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+            <state relative-caret-position="500">
+              <caret line="147" column="57" lean-forward="false" selection-start-line="147" selection-start-column="57" selection-end-line="147" selection-end-column="57" />
               <folding>
                 <element signature="e#311#320#0" expanded="true" />
               </folding>
@@ -242,18 +246,20 @@
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="magazines" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
@@ -288,8 +294,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/OFF_pdf/static" />
+      <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/viewerjs" />
       <recent name="$PROJECT_DIR$/viewerjs/static" />
     </key>
@@ -808,8 +814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="500">
+          <caret line="147" column="57" lean-forward="false" selection-start-line="147" selection-start-column="57" selection-end-line="147" selection-end-column="57" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
           </folding>
