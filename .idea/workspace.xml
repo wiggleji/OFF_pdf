@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b775a751-3107-4889-8da0-1f37c7b71084" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/OFF_pdf/settings.py" afterPath="$PROJECT_DIR$/OFF_pdf/settings.py" />
+      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/5-1.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/김지형.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/발표-처음부터_알아보는_웹_크롤러_static.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/웹_크롤러_패캠_강의8주_기획의_수정본_-_I.pdf" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +24,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
               <folding>
                 <element signature="e#311#320#0" expanded="true" />
               </folding>
@@ -133,6 +138,7 @@
       <find>file</find>
       <find>canvas.width</find>
       <find>link</find>
+      <find>middleware</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -242,13 +248,18 @@
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="magazines" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
@@ -272,13 +283,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="settings&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;wsgi&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/wsgi.py&#10;setting&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;url&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/urls.py&#10;view&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/views.py&#10;mod&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/models.py&#10;urls&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/urls.py&#10;se&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;views&#9;null&#9;null&#10;admin&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewerjs/admin.py&#10;usercreati&#9;null&#9;null&#10;model&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewerjs/models.py" />
+    <property name="SearchEverywhereHistoryKey" value="sett&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;settings&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;wsgi&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/wsgi.py&#10;setting&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;url&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/urls.py&#10;view&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/views.py&#10;mod&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/models.py&#10;urls&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/urls.py&#10;se&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;views&#9;null&#9;null&#10;admin&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewerjs/admin.py&#10;usercreati&#9;null&#9;null&#10;model&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewerjs/models.py" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/OFF_pdf/static" />
       <recent name="$PROJECT_DIR$/media" />
+      <recent name="$PROJECT_DIR$/OFF_pdf/static" />
       <recent name="$PROJECT_DIR$/viewerjs" />
       <recent name="$PROJECT_DIR$/viewerjs/static" />
     </key>
@@ -699,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OFF_pdf/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/viewer/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -795,10 +798,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OFF_pdf/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
           </folding>
