@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b775a751-3107-4889-8da0-1f37c7b71084" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/5-1.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/김지형.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/발표-처음부터_알아보는_웹_크롤러_static.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/웹_크롤러_패캠_강의8주_기획의_수정본_-_I.pdf" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/OFF_pdf/settings.py" afterPath="$PROJECT_DIR$/OFF_pdf/settings.py" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change beforePath="$PROJECT_DIR$/viewer/templates/index.css" afterPath="$PROJECT_DIR$/viewer/templates/index.css" />
-      <change beforePath="$PROJECT_DIR$/viewer/templates/index.html" afterPath="$PROJECT_DIR$/viewer/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/5-1.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/김지형.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/발표-처음부터_알아보는_웹_크롤러_static.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/웹_크롤러_패캠_강의8주_기획의_수정본_-_I.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/viewer/templates/viewer.html" afterPath="$PROJECT_DIR$/viewer/templates/viewer.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state relative-caret-position="287">
+              <caret line="130" column="32" lean-forward="false" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
               <folding>
                 <element signature="e#311#320#0" expanded="true" />
               </folding>
@@ -56,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OFF_pdf/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="e#224#233#0" expanded="true" />
               </folding>
@@ -81,32 +79,12 @@
       <file leaf-file-name="viewer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/viewer/templates/viewer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="224">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <element signature="e#231#237#0#HTML" expanded="true" />
                 <element signature="e#238#244#0#HTML" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OFF_pdf/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/viewer/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -124,8 +102,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/viewer/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="336">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -141,6 +119,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -158,6 +137,8 @@
       <find>.pyc</find>
       <find>.env</find>
       <find>file</find>
+      <find>canvas.width</find>
+      <find>link</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,6 +161,9 @@
         <option value="$PROJECT_DIR$/viewer/templates/index.css" />
         <option value="$PROJECT_DIR$/viewer/templates/index.html" />
         <option value="$PROJECT_DIR$/viewer/templates/viewer.html" />
+        <option value="$PROJECT_DIR$/viewer/templates/viewer.js" />
+        <option value="$PROJECT_DIR$/viewer/templates/viewer.css" />
+        <option value="$PROJECT_DIR$/viewer/templates/test.html" />
         <option value="$PROJECT_DIR$/OFF_pdf/settings.py" />
       </list>
     </option>
@@ -264,20 +248,18 @@
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
               <item name="magazines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
@@ -307,11 +289,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="wsgi&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/wsgi.py&#10;settings&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;setting&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;url&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/urls.py&#10;view&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/views.py&#10;mod&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/models.py&#10;urls&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/urls.py&#10;se&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;views&#9;null&#9;null&#10;admin&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewerjs/admin.py&#10;usercreati&#9;null&#9;null&#10;model&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewerjs/models.py" />
+    <property name="SearchEverywhereHistoryKey" value="settings&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;wsgi&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/wsgi.py&#10;setting&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;url&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/urls.py&#10;view&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/views.py&#10;mod&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/models.py&#10;urls&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/urls.py&#10;se&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;views&#9;null&#9;null&#10;admin&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewerjs/admin.py&#10;usercreati&#9;null&#9;null&#10;model&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewerjs/models.py" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/OFF_pdf/static" />
       <recent name="$PROJECT_DIR$/viewerjs" />
       <recent name="$PROJECT_DIR$/viewerjs/static" />
@@ -370,10 +353,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="640" height="778" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13984375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -417,21 +400,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/contrib/auth/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viewerjs/ViewerJS/index.html" />
     <entry file="file://$PROJECT_DIR$/viewer/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -788,10 +756,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OFF_pdf/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#224#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/viewer/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="336">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -799,10 +777,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/viewer/templates/viewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5984">
+          <caret line="374" column="3" lean-forward="false" selection-start-line="374" selection-start-column="3" selection-end-line="374" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewer/templates/viewer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2140">
+          <caret line="249" column="0" lean-forward="true" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewer/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/viewer/templates/viewer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="e#231#237#0#HTML" expanded="true" />
             <element signature="e#238#244#0#HTML" expanded="true" />
@@ -812,20 +814,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state relative-caret-position="287">
+          <caret line="130" column="32" lean-forward="false" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OFF_pdf/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#224#233#0" expanded="true" />
           </folding>
         </state>
       </provider>
