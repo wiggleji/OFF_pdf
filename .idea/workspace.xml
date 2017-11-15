@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b775a751-3107-4889-8da0-1f37c7b71084" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/OFF_pdf/settings.py" afterPath="$PROJECT_DIR$/OFF_pdf/settings.py" />
-      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/5-1.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/김지형.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/발표-처음부터_알아보는_웹_크롤러_static.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/OFF_pdf/static/magazines/웹_크롤러_패캠_강의8주_기획의_수정본_-_I.pdf" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +19,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
+            <state relative-caret-position="484">
+              <caret line="146" column="38" lean-forward="false" selection-start-line="146" selection-start-column="38" selection-end-line="146" selection-end-column="38" />
               <folding>
                 <element signature="e#311#320#0" expanded="true" />
               </folding>
@@ -248,18 +243,20 @@
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
               <item name="magazines" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
@@ -288,6 +285,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OFF_pdf" />
       <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/OFF_pdf/static" />
       <recent name="$PROJECT_DIR$/viewerjs" />
@@ -808,8 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
+        <state relative-caret-position="484">
+          <caret line="146" column="38" lean-forward="false" selection-start-line="146" selection-start-column="38" selection-end-line="146" selection-end-column="38" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
           </folding>
