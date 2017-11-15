@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="146" column="38" lean-forward="false" selection-start-line="146" selection-start-column="38" selection-end-line="146" selection-end-column="38" />
+              <caret line="146" column="34" lean-forward="false" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
               <folding>
                 <element signature="e#311#320#0" expanded="true" />
               </folding>
@@ -243,20 +243,18 @@
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
               <item name="magazines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
@@ -285,11 +283,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/OFF_pdf" />
       <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/OFF_pdf/static" />
       <recent name="$PROJECT_DIR$/viewerjs" />
-      <recent name="$PROJECT_DIR$/viewerjs/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -807,7 +805,7 @@
     <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="146" column="38" lean-forward="false" selection-start-line="146" selection-start-column="38" selection-end-line="146" selection-end-column="38" />
+          <caret line="146" column="34" lean-forward="false" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
           </folding>
