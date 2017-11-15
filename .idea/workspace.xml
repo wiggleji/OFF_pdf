@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b775a751-3107-4889-8da0-1f37c7b71084" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/5-1.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/김지형.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/발표-처음부터_알아보는_웹_크롤러_static.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/OFF_pdf/static/magazines/웹_크롤러_패캠_강의8주_기획의_수정본_-_I.pdf" />
       <change beforePath="$PROJECT_DIR$/OFF_pdf/settings.py" afterPath="$PROJECT_DIR$/OFF_pdf/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +19,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="147" column="57" lean-forward="false" selection-start-line="147" selection-start-column="57" selection-end-line="147" selection-end-column="57" />
+            <state relative-caret-position="468">
+              <caret line="134" column="20" lean-forward="true" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
               <folding>
                 <element signature="e#311#320#0" expanded="true" />
               </folding>
@@ -286,7 +282,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="settings&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;wsgi&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/wsgi.py&#10;setting&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;url&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/urls.py&#10;view&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/views.py&#10;mod&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/models.py&#10;urls&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewer/urls.py&#10;se&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/OFF_pdf/settings.py&#10;views&#9;null&#9;null&#10;admin&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewerjs/admin.py&#10;usercreati&#9;null&#9;null&#10;model&#9;FILE&#9;file:///Users/roamgom/github/OFF_pdf/viewerjs/models.py" />
@@ -814,8 +810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="147" column="57" lean-forward="false" selection-start-line="147" selection-start-column="57" selection-end-line="147" selection-end-column="57" />
+        <state relative-caret-position="468">
+          <caret line="134" column="20" lean-forward="true" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
           </folding>
