@@ -19,8 +19,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="134" column="20" lean-forward="true" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+            <state relative-caret-position="276">
+              <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding>
                 <element signature="e#311#320#0" expanded="true" />
               </folding>
@@ -249,19 +249,6 @@
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
               <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="magazines" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="OFF_pdf" type="462c0819:PsiDirectoryNode" />
-              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OFF_pdf" type="b2602c69:ProjectViewProjectNode" />
@@ -810,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OFF_pdf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="134" column="20" lean-forward="true" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+        <state relative-caret-position="276">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
           </folding>

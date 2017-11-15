@@ -143,7 +143,7 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-MEDIA_ROOT = os.path.join(BASE_DIR, "OFF_pdf", "static")
+MEDIA_ROOT = os.path.join(BASE_DIR, "OFF_pdf", "static",)
 
 MEDIA_URL = '/media/'
 
