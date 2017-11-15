@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <link rel="stylesheet", type="text/css", href="index.css">
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -13,28 +16,36 @@
 </head>
 <body>
 
-<header>
-  
+<header class="header">
+  <h2 style="text-indent: 20px; text-align: left">Hola!</h2>
 </header>
 
-<div id="mainbox" align="center">
-    <div class="ui list left-side" style="
-    display: inline-block; 
-    text-align: left;">
-      <a class="item">
-        {% for mag in mag_list %}
-          <a href="{% url 'viewer' pk=mag.pk %}">
-            <h2 class="ui header" style="margin-top: 8px; margin-bottom: 8px;">
-              <i class="right triangle icon"></i>
-                {{ mag.title }}
-            </h2> 
-          </a>
-        {% endfor %}
-      </a>
-    </div>
-</div>
+<section class="nav-left">
+</section>
 
-<footer>
+<section class="section">
+    <div id="mainbox" align="center">
+        <div class="ui list left-side" style="
+        display: inline-block;
+        text-align: left;">
+          <a class="item">
+            {% for mag in mag_list %}
+              <a href="{% url 'viewer' pk=mag.pk %}">
+                <h2 class="ui header" style="margin-top: 8px; margin-bottom: 8px;">
+                  <i class="right triangle icon"></i>
+                    {{ mag.title }}
+                </h2>
+              </a>
+            {% endfor %}
+          </a>
+        </div>
+    </div>
+</section>
+
+<section class="nav-right">
+</section>
+
+<footer class="footer">
   <div align="center">
     <div class="ui list" style="display: inline-block; text-align: left;">
     <div class="item">
