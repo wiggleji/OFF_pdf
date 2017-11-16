@@ -27,6 +27,12 @@ SECRET_KEY = 'lue%nwvi&l@cg_5qb16am52l1w^be3aj0a%e+m#jf009u#(vy_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
+# AWS
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+AWS_STORAGE_BUCKET_NAME = 'off-pdf-storage'
+
 ALLOWED_HOSTS = ['*']
 
 
@@ -40,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'whitenoise.runserver_nostatic',
     'storages',
     'viewer',
 ]
@@ -125,12 +132,18 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files
 
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+# Django Storages
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
+# AWS Static files + admin
+# STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+# STATIC_URL = 'http://' + AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com/'
+# ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
+
+
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
@@ -138,15 +151,14 @@ STATICFILES_DIRS = (
 )
 
 # Simplified static file serving.
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-MEDIA_ROOT = os.path.join(BASE_DIR, "media",)
-
+# Media files
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = '/media/'
-
-STATIC_URL = '/static/'
 
