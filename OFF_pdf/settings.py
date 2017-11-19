@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
+
 import os
 import dj_database_url
 
@@ -30,9 +31,9 @@ DEBUG = True
 
 
 # AWS
-AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-AWS_STORAGE_BUCKET_NAME = 'off-pdf-storage'
+# AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+# AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+# AWS_STORAGE_BUCKET_NAME = 'off-pdf-storage'
 
 ALLOWED_HOSTS = ['*']
 
@@ -141,17 +142,16 @@ STATIC_URL = '/static/'
 # ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
 
-# S3Boto storage URL
-# STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+# Whitenoise dir
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'media'),
+    os.path.join(BASE_DIR, 'static'),
 )
 
-# Simplified static file serving.
+# Simplified static file serving.st
 
 
 # Static files (CSS, JavaScript, Images)
