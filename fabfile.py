@@ -21,7 +21,7 @@ REMOTE_USER = envs['REMOTE_USER']
 REMOTE_PASSWORD = envs['REMOTE_PASSWORD']
 
 # Static root | Static URL | Media Root on `Settings.py`
-STATIC_ROOT_NAME = 'staticfiles'
+STATIC_ROOT_NAME = 'static'
 STATIC_URL_NAME = 'static'
 MEDIA_ROOT = 'media'
 
