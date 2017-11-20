@@ -125,7 +125,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': '$HOME/debug.log',
+            'filename': 'debug.log',
         },
     },
     'loggers': {
