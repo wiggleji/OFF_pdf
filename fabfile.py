@@ -118,7 +118,7 @@ def _get_latest_source():
 
 
 def _put_envs():
-    put(os.path.join(PROJECT_DIR, 'deploy.json'), '~/{}/deploy.json'.format(PROJECT_NAME))
+    put(os.path.join(PROJECT_DIR, 'envs.json'), '~/{}/envs.json'.format(PROJECT_NAME))
 
 
 def _update_settings():
@@ -138,9 +138,9 @@ def _update_settings():
 
 def _update_virtualenv():
     virtualenv_folder = project_folder + '/../.virtualenvs/{}'.format(PROJECT_NAME)
-    if not exists(virtualenv_folder + '/bin/pip'):
+    if not exists(virtualenv_folder + '/bin/pip3'):
         run('cd /home/%s/.virtualenvs && virtualenv %s' % (env.user, PROJECT_NAME))
-    run('%s/bin/pip install -r %s/requirements.txt' % (
+    run('%s/bin/pip3 install -r %s/requirements.txt' % (
         virtualenv_folder, project_folder
     ))
 
