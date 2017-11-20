@@ -11,9 +11,7 @@
 
     <div style="text-align: center;">
       <button id="prev" style="float: left; max-height: 100%; max-width: 100%;">이전</button>
-        <button id="zoomoutbutton" type="button">zoom out</button>
       <span style="">Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-        <button id="zoominbutton" type="button">zoom in</button>
 
       <button id="next" style="float: right; max-height: 100%; max-width: 100%;">다음</button>
 </div>
@@ -68,9 +66,6 @@
       // Update page counters
       document.getElementById('page_num').textContent = pageNum;
     }
-    function displayPage(pdf, num) {
-            pdf.getPage(num).then(function getPage(page) { renderPage(page); });
-         }
 
     /**
      * If another page rendering in progress, waits until the rendering is
@@ -108,20 +103,6 @@
     }
     document.getElementById('next').addEventListener('click', onNextPage);
 
-    var zoominbutton = document.getElementById("zoominbutton");
-         zoominbutton.onclick = function() {
-            pdfScale = scale + 0.25;
-            displayPage(shownPdf, pageNum);
-         }
-
-    var zoomoutbutton = document.getElementById("zoomoutbutton");
-    zoomoutbutton.onclick = function() {
-        if (scale <= 0.25) {
-           return;
-        }
-        pdfScale = scale - 0.25;
-        displayPage(shownPdf, pageNum);}
-
     /**
      * Asynchronously downloads PDF.
      */
@@ -130,7 +111,7 @@
       document.getElementById('page_count').textContent = pdfDoc.numPages;
 
       // Initial/first page rendering
-      displayPage(pageNum);
+      renderPage(pageNum);
     });
     </script>
 </body>
