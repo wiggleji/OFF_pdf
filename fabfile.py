@@ -22,7 +22,7 @@ REMOTE_PASSWORD = envs['REMOTE_PASSWORD']
 
 # Static root | Static URL | Media Root on `Settings.py`
 STATIC_ROOT_NAME = 'staticfiles'
-STATIC_URL_NAME = '/static/'
+STATIC_URL_NAME = 'static'
 MEDIA_ROOT = 'media'
 
 
@@ -103,7 +103,7 @@ def _make_virtualenv():
                     export VIRTUALENVWRAPPER_PYTHON="$(command \which python3)"  # location of python3
                     source /usr/local/bin/virtualenvwrapper.sh"'''
         run('mkdir ~/.virtualenvs')
-        sudo('sudo pip install virtualenv virtualenvwrapper')
+        sudo('sudo pip3 install virtualenv virtualenvwrapper')
         run('echo {} >> ~/.bashrc'.format(script))
 
 
@@ -204,4 +204,5 @@ def _grant_sqlite3():
 
 def _restart_apache2():
     sudo('sudo service apache2 restart')
+
 
