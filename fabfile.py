@@ -103,7 +103,7 @@ def _make_virtualenv():
                     export VIRTUALENVWRAPPER_PYTHON="$(command \which python3)"  # location of python3
                     source /usr/local/bin/virtualenvwrapper.sh"'''
         run('mkdir ~/.virtualenvs')
-        sudo('sudo pip3 install virtualenv virtualenvwrapper')
+        sudo('sudo pip install virtualenv virtualenvwrapper')
         run('echo {} >> ~/.bashrc'.format(script))
 
 
@@ -138,9 +138,9 @@ def _update_settings():
 
 def _update_virtualenv():
     virtualenv_folder = project_folder + '/../.virtualenvs/{}'.format(PROJECT_NAME)
-    if not exists(virtualenv_folder + '/bin/pip3'):
+    if not exists(virtualenv_folder + '/bin/pip'):
         run('cd /home/%s/.virtualenvs && virtualenv %s' % (env.user, PROJECT_NAME))
-    run('%s/bin/pip3 install -r %s/requirements.txt' % (
+    run('%s/bin/pip install -r %s/requirements.txt' % (
         virtualenv_folder, project_folder
     ))
 
