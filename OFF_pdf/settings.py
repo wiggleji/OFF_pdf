@@ -125,7 +125,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': 'debug.log',
+            'filename': '/home/roamgom/OFF_pdf/debug.log',
         },
     },
     'loggers': {
