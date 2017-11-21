@@ -15,9 +15,7 @@
 </div>
 
 <canvas id="the-canvas" style="max-width: 100%; max-height: 100%"></canvas>
-      <button id="prev" style="float: left; max-height: 100%; max-width: 100%;">이전</button>
-
-      <button id="next" style="float: right; max-height: 100%; max-width: 100%;">다음</button>
+      
 <script>
     // If absolute URL from the remote server is provided, configure the CORS
     // header on that server.
@@ -30,7 +28,7 @@
         pageNum = 1,
         pageRendering = true,
         pageNumPending = null,
-        scale = 4.0,   /* PDF size scale */
+        scale = 1.0,   /* PDF size scale */
         canvas = document.getElementById('the-canvas'),
         ctx = canvas.getContext('2d');
 
@@ -115,5 +113,8 @@
       renderPage(pageNum);
     });
     </script>
+    <button id="prev" style="float: left; max-height: 100%; max-width: 100%;">이전</button>
+
+      <button id="next" style="float: right; max-height: 100%; max-width: 100%;">다음</button>
 </body>
 </html>
