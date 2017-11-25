@@ -1,8 +1,8 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, user-scalable=yes">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
 
 <style>
 /* Center the loader */
@@ -77,7 +77,7 @@
       <i class="big angle double left icon" id="prev" style="float: left; margin-left: 40px; margin-bottom: 40px;"></i>
       <i class="big angle double right icon" id="next" style="float: right; margin-right: 40px;margin-bottom: 40px;"></i>
    </div>
-<script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+<script src="{% static 'pdf.js' %}"></script>
 
 <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -90,7 +90,7 @@
     var url = "{{ magazine.file.url }}";
 
     // The workerSrc property shall be specified.
-    PDFJS.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
+    PDFJS.workerSrc = {% static 'pdf.worker.js' %};
 
     var pdfDoc = null,
         pageNum = 1,

@@ -187,6 +187,13 @@ ENV/
 env.bak/
 venv.bak/
 
+# Deploy JSON info
+deploy.json
+
+# StaticFiles
+staticfiles
+
+>>>>>>> b5a80ae7ef365050432d2033da267256ccd0bdac
 # Spyder project settings
 .spyderproject
 .spyproject
