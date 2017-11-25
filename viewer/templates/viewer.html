@@ -90,7 +90,7 @@
     var url = "{{ magazine.file.url }}";
 
     // The workerSrc property shall be specified.
-    PDFJS.workerSrc = {% static 'pdf.worker.js' %};
+    PDFJS.workerSrc = "{% static 'pdf.worker.js' %}";
 
     var pdfDoc = null,
         pageNum = 1,
