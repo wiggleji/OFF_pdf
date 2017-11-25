@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <link rel="stylesheet", type="text/css", href="index.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+
+    <title>OFF Magazine</title>
+</head>
+<body>
+
+<header class="header">
+  <h2 style="text-indent: 20px; text-align: left">Hola!</h2>
+</header>
+
+<section class="nav-left">
+</section>
+
+<section class="section">
+    <div id="mainbox" align="center">
+        <div class="ui list left-side" style="
+        display: inline-block;
+        text-align: left;">
+          <a class="item">
+            {% for mag in mag_list %}
+              <a href="{% url 'viewer' pk=mag.pk %}">
+                <h2 class="ui header" style="margin-top: 25px; margin-bottom: 25px;">
+                  <i class="right triangle icon"></i>
+                    {{ mag.title }}
+                </h2>
+              </a>
+            {% endfor %}
+          </a>
+        </div>
+    </div>
+</section>
+
+<section class="nav-right">
+</section>
+
+<footer class="footer">
+  <div align="center">
+    <div class="ui list" style="display: inline-block; text-align: left;">
+    <div class="item">
+      <i class="users icon"></i>
+      <div class="content">
+        OFFERS'
+      </div>
+    </div>
+    <div class="item">
+      <i class="marker icon"></i>
+      <div class="content">
+          Seoul, Korea
+      </div>
+    </div>
+    <div class="item">
+      <i class="mail icon"></i>
+      <div class="content">
+        <a href="mailto:kjun7810@gmail.com">kjun7810@gmail.com</a>
+      </div>
+    </div>
+    <div class="item">
+      <i class="facebook square icon"></i>
+      <div class="content">
+        <a href="https://www.facebook.com/O.F.F.1996/">OFF Facebook</a>
+      </div>
+    </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
