@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,9 +17,9 @@
 </head>
 <body>
 
-<header class="header">
-  <h2 style="text-indent: 20px; text-align: left">Hola!</h2>
-</header>
+<div id="off">
+    <img src="{% static 'off.png' %}">
+</div>
 
 <section class="nav-left">
 </section>
