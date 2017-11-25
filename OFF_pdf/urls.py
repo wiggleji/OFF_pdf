@@ -18,9 +18,11 @@ from django.conf import settings
 from django.contrib import admin
 from django.conf.urls.static import static
 
-urlpatterns = static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + [
-    url(r'^jet/', include('jet.urls', 'jet')),
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'', include('viewer.urls')),
-]
+urlpatterns = static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + \
+              static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + \
+              [
+                  url(r'^jet/', include('jet.urls', 'jet')),
+                  url(r'^admin/', include(admin.site.urls)),
+                  url(r'', include('viewer.urls')),
+              ]
 # find static URL first, then check the last urlpatterns (which is for admin | viewer)

@@ -154,7 +154,7 @@ USE_TZ = True
 
 
 # AWS Static files + admin
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'OFF_pdf/staticfiles')
 STATIC_URL = '/static/'
 # STATIC_URL = 'http://' + AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com/'
 # ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
@@ -166,7 +166,7 @@ STATIC_URL = '/static/'
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'staticfiles'),
+    os.path.join(BASE_DIR, 'static'),
 )
 
 # Simplified static file serving.st

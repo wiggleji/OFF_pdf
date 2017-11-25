@@ -59,7 +59,7 @@
 </style>
     <title>OFFviewer</title>
 </head>
-<body onload="myFunction()" style="margin:0;">
+<body style="margin:0;">
 
     <h1 style="text-align: center;">OFFViewer</h1>
 
@@ -176,6 +176,7 @@
     PDFJS.getDocument(url).then(function(pdfDoc_) {
       pdfDoc = pdfDoc_;
       document.getElementById('page_count').textContent = pdfDoc.numPages;
+      showPage()
 
       // Initial/first page rendering
       renderPage(pageNum);
