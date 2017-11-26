@@ -8,7 +8,8 @@
 #the-canvas {
     border: 1px solid black;
     max-width: 100%;
-    max-height: calc(100vh - 150px);
+    max-height: 100%;
+/*    max-height: calc(100vh - 150px);*/
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
@@ -20,13 +21,23 @@
     text-align: center;
     margin-top: 50px;
 }
+.off-image {
+    width: 78px;
+    height: 29px;
+}
+
+#offers-left {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+}
 
 #offers {
     text-align: center;
     margin-top: 50px;
 }
 
-#offers-image {
-    width: 110px;
-    height: 34px;
+.offers-image {
+    width: 220px;
+    height: 68px;
 }
