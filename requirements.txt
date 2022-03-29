@@ -19,7 +19,7 @@ Fabric3==1.13.1.post1
 gunicorn==19.7.1
 idna==2.6
 jmespath==0.9.3
-paramiko==2.4.0
+paramiko==2.10.1
 psycopg2==2.7.3.2
 pyasn1==0.3.7
 pycparser==2.18
